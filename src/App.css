@@ -55,3 +55,12 @@ figcaption {
   padding: 0.5em;
   font-size: 1.2em;
 }
+
+.footer {
+  width: 70%;
+  text-align: center;
+  padding: 2em 1em;
+  background: #fff;
+  margin: 0 auto;
+  border-top: 1px solid rgba(55, 55, 55, .3);
+}
