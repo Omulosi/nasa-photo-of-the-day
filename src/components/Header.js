@@ -5,7 +5,7 @@ const Header = () => {
 
   return (
     <div className="header">
-      <h1>NASA photo of the day</h1>
+      <h1>Astronomy Picture of the Day</h1>
     </div>
   )
 }
