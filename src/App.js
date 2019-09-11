@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./App.css";
 
-import Header from './components';
-import Date from './components';
-import Image from './components';
-import Footer from './components';
+import Header from './components/Header';
+import Date from './components/Date';
+import Image from './components/Image';
+import Footer from './components/Footer';
 
 function App() {
   const [state, setState] = useState({
@@ -18,7 +18,7 @@ function App() {
   const {date, title, copyright, url, explanation} = state;
   return (
     <div className="App">
-      <Header />;
+      <Header />
       <Date date={date}/>
       <Image title={title} imgSrc={url} explanation={explanation} />
       <Footer copyright={copyright} />
