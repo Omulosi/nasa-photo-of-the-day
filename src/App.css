@@ -4,6 +4,7 @@
 
 body {
     color: #4b4e55;
+    background: #f4f4ff;
 }
 
 .header {
@@ -19,4 +20,38 @@ body {
   text-align: center;
   font-weight: lighter;
   padding: 0.5em 1em;
+}
+
+/* Image component styles */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 1em;
+  background: white;
+}
+
+figcaption {
+  text-align: center;
+  text-transform: italic;
+  padding-top: 0.5em;
+}
+
+.main-photo {
+  width: 100%;
+  margin: 0;
+}
+
+.main-photo img {
+  width: 100%;
+  border-radius: 5px;
+  display: block;
+}
+
+.explanation {
+  padding: 0.5em;
+  font-size: 1.2em;
 }
