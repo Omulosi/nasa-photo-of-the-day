@@ -9,7 +9,7 @@ const Image = (props) => {
   return (
     <div className="main-content">
       <figure className="main-photo">
-        <img src={imgSrc} alt="photo of the day"/>
+        <img src={imgSrc} alt={title}/>
         <figcaption>{title}</figcaption>
       </figure>
 

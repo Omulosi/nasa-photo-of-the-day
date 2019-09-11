@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 
 
 const nasaAPI = "https://lambda-github-api-server.herokuapp.com/";
+//const nasaAPI = 'https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY';
 
 function App() {
   const [state, setState] = useState({
@@ -29,11 +30,16 @@ function App() {
       })
   }, []);
 
+  const handleChange = (e) => {
+    e.preventDefault();
+
+  }
+
   const {date, title, copyright, url, explanation} = state;
 
   return (
     <div className="App">
-      <Header />
+      <Header date={date} handleChange={handleChange}/>
       <Date date={date}/>
       <Image title={title} imgSrc={url} explanation={explanation} />
       <Footer copyright="Bray Falls" />

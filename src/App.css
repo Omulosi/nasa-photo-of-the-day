@@ -12,6 +12,7 @@ body {
   box-shadow: 0 3px 5px 0 rgba(0,0,0,.27);
   text-align: center;
   padding: 0.5em 2em;
+  position: relative;
 }
 
 
@@ -64,4 +65,15 @@ figcaption {
   background: #fff;
   margin: 0 auto;
   border-top: 1px solid rgba(55, 55, 55, .3);
+}
+
+input#date {
+  padding: 0.5em;
+  border-radius: 10px;
+  display: inline-block;
+  position: absolute;
+  right: 4em;
+  top: 50%;
+  transform: translate(0, -50%);
+  background: #f4f4ff;
 }
