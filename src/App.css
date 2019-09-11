@@ -12,3 +12,11 @@ body {
   text-align: center;
   padding: 0.5em 2em;
 }
+
+
+/* Date component styles */
+.date {
+  text-align: center;
+  font-weight: lighter;
+  padding: 0.5em 1em;
+}
